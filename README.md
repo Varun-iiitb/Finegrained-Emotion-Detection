@@ -126,24 +126,3 @@ python src/parse_logs.py --log logs/gate_zh_s0.log --out runs/gate_zh_word   # p
 Model selection uses **only** the F_s metric (never accuracy or loss). Encoders are
 frozen; only the fusion body + head train.
 
-## Gotchas (read before running)
-
-- **Never reinstall torch.** It's the cu128 wheel for Blackwell sm_120; a "no kernel
-  image" error means a build mismatch, not a reason to reinstall.
-- **`GLIBCXX` / matplotlib error?** In a fresh shell, run
-  `export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH` before any torch/plot
-  script (conda-forge numpy needs the env's newer libstdc++).
-- **No DQF checkpoints are saved** by default — `train*.py` keep the best-by-val model
-  in memory and discard it on exit. Only `data/cache/demo_model.pt` (the linear demo
-  head) is persisted. Add `torch.save` to `train_machine_cv.py` if you need to keep a
-  DQF model.
-- **Curated labels:** edit `src/label_curation.py` (the `NEW_CANONICALS` / `DROP`
-  lists), then re-run `src/relabel_map.py` to regenerate `repaired_label_map.json`.
-- **The `.pt` cache uses** `torch.load(..., weights_only=False)` (dicts hold non-tensor
-  fields).
-
-## Environment
-
-One 16 GB GPU (RTX 5060 Ti, Blackwell sm_120); PyTorch from the **cu128** wheel.
-Conda env `mer`. Metric needs `openpyxl`; plots need `matplotlib` (both conda-forge,
-neither touches torch).
