@@ -1,0 +1,17 @@
+{
+  "run_name": "gate_zh_word(3311)",
+  "kinds": [
+    "train"
+  ],
+  "folds": [
+    {
+      "fold": "seed0",
+      "test_fs": 28.3,
+      "best_val_fs": 33.35,
+      "best_thr": 0.45
+    }
+  ],
+  "n_folds": 1,
+  "test_fs_mean": 28.3,
+  "test_fs_std": 0.0
+}

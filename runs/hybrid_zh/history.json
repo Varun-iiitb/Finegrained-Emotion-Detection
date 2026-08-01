@@ -1,0 +1,44 @@
+[
+  {
+    "fold": "pretrain",
+    "epoch": 0,
+    "train_loss": 7.848,
+    "val_fs": 20.24,
+    "val_thr": null
+  },
+  {
+    "fold": "pretrain",
+    "epoch": 3,
+    "train_loss": 7.307,
+    "val_fs": 24.0,
+    "val_thr": null
+  },
+  {
+    "fold": "pretrain",
+    "epoch": 6,
+    "train_loss": 7.18,
+    "val_fs": 24.46,
+    "val_thr": null
+  },
+  {
+    "fold": "pretrain",
+    "epoch": 9,
+    "train_loss": 7.065,
+    "val_fs": 27.4,
+    "val_thr": null
+  },
+  {
+    "fold": "pretrain",
+    "epoch": 12,
+    "train_loss": 6.98,
+    "val_fs": 26.79,
+    "val_thr": null
+  },
+  {
+    "fold": "pretrain",
+    "epoch": 14,
+    "train_loss": 6.932,
+    "val_fs": 26.51,
+    "val_thr": null
+  }
+]

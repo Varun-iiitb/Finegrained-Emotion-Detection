@@ -1,0 +1,28 @@
+{
+  "train": {
+    "split": "TRAIN",
+    "n": 30779,
+    "median_labels": 3,
+    "desc_coverage": 30779,
+    "zh": 30779,
+    "en": 30191,
+    "audio": 30779,
+    "face": 30779
+  },
+  "eval": {
+    "split": "EVAL",
+    "n": 1532,
+    "median_labels": 5.0,
+    "desc_coverage": 548,
+    "zh": 1508,
+    "en": 1507,
+    "audio": 1532,
+    "face": 1532
+  },
+  "vocab_size": 3311,
+  "train_label_col": "openset",
+  "eval_label_col": "openset",
+  "desc_source": "track3_train_mercaptionplus.csv",
+  "leakage_removed": 548,
+  "train_eval_overlap": 0
+}

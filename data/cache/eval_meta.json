@@ -1,0 +1,29 @@
+{
+  "split": "eval",
+  "n": 1532,
+  "new": 1516,
+  "skipped": 16,
+  "missing": {
+    "audio": 0,
+    "visual": 0,
+    "text_zh": 23,
+    "text_en": 24,
+    "desc": 0
+  },
+  "dims": {
+    "audio": 768,
+    "visual": 768,
+    "text": 1024
+  },
+  "caps": {
+    "audio": 512,
+    "faces": 16,
+    "text": 128,
+    "desc": 256
+  },
+  "models": {
+    "audio": "iic/emotion2vec_base",
+    "visual": "openai/clip-vit-large-patch14",
+    "text": "BAAI/bge-m3"
+  }
+}

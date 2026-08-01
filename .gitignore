@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives / temp
+*.tar.gz
+*.7z
+*.zip
+
+# Large data NOT redistributed (gated dataset + feature cache)
+data/MER2026/
+data/MER2026_extracted/
+data/cache/train/
+data/cache/eval/
+data/cache/pooled_train.pt
+
+# Checkpoints (regenerable)
+runs/**/model_*.pt

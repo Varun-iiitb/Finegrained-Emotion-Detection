@@ -1,0 +1,33 @@
+nohup: ignoring input
+[wheel] format_mapping: 7386 surface forms; raw_mapping: 1255 words
+[anchors] canonical: 3311 words -> 190 anchors
+[anchors] loaded /home/user10/SRIP/data/cache/anchors_canonical.pt (190, 1024)
+
+=== MACHINE-CV SPLIT | run=machine_split_zh_canon | text=zh | 190 anchors | n=30779 clips ===
+  split: fit=24623 val=3077 test=3079
+  fold0 ep00 loss=5.591 val_Fs=32.73 thr=0.225
+  fold0 ep01 loss=5.427 val_Fs=33.12 thr=0.250
+  fold0 ep02 loss=5.389 val_Fs=32.27 thr=0.250
+  fold0 ep03 loss=5.352 val_Fs=33.84 thr=0.250
+  fold0 ep04 loss=5.327 val_Fs=34.85 thr=0.225
+  fold0 ep05 loss=5.312 val_Fs=35.43 thr=0.225
+  fold0 ep06 loss=5.291 val_Fs=35.88 thr=0.225
+  fold0 ep07 loss=5.285 val_Fs=34.58 thr=0.250
+  fold0 ep08 loss=5.270 val_Fs=35.03 thr=0.225
+  fold0 ep09 loss=5.264 val_Fs=36.18 thr=0.225
+  fold0 ep10 loss=5.246 val_Fs=36.36 thr=0.225
+  fold0 ep11 loss=5.238 val_Fs=35.48 thr=0.250
+  fold0 ep12 loss=5.223 val_Fs=36.69 thr=0.250
+  fold0 ep13 loss=5.207 val_Fs=36.44 thr=0.250
+  fold0 ep14 loss=5.198 val_Fs=36.48 thr=0.250
+  fold0 ep15 loss=5.182 val_Fs=36.42 thr=0.225
+  fold0 ep16 loss=5.174 val_Fs=35.64 thr=0.250
+  fold0 ep17 loss=5.163 val_Fs=36.01 thr=0.250
+  fold0 ep18 loss=5.150 val_Fs=35.89 thr=0.250
+  fold0 ep19 loss=5.142 val_Fs=36.34 thr=0.250
+  fold0: TEST F_s=36.86  (best_val=36.69 @ep12 thr=0.250)
+
+=== RESULT machine_split_zh_canon: machine within-dist TEST F_s = 36.86 ± 0.00 over 1 split [36.9] ===
+  saved -> /home/user10/SRIP/runs/machine_split_zh_canon/history.json + result.json
+  NOTE: this is WITHIN-DISTRIBUTION (predict auto labels). Human-relevance number is still the human-CV (~44.6).
+  plot:  python src/plot_training.py --run /home/user10/SRIP/runs/machine_split_zh_canon

@@ -1,0 +1,42 @@
+{
+  "run_name": "hybrid_zh",
+  "kinds": [
+    "hybrid_finetune",
+    "hybrid_pretrain"
+  ],
+  "folds": [
+    {
+      "fold": "ft_fold0",
+      "test_fs": 34.4,
+      "best_val_fs": 37.17,
+      "best_thr": 0.2
+    },
+    {
+      "fold": "ft_fold1",
+      "test_fs": 35.1,
+      "best_val_fs": 36.16,
+      "best_thr": 0.2
+    },
+    {
+      "fold": "ft_fold2",
+      "test_fs": 35.01,
+      "best_val_fs": 35.49,
+      "best_thr": 0.2
+    },
+    {
+      "fold": "ft_fold3",
+      "test_fs": 33.66,
+      "best_val_fs": 36.18,
+      "best_thr": 0.2
+    },
+    {
+      "fold": "ft_fold4",
+      "test_fs": 35.4,
+      "best_val_fs": 36.23,
+      "best_thr": 0.225
+    }
+  ],
+  "n_folds": 5,
+  "test_fs_mean": 34.714,
+  "test_fs_std": 0.6191
+}

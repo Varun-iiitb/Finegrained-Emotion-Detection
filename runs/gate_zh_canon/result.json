@@ -1,0 +1,17 @@
+{
+  "run_name": "gate_zh_canon(190)",
+  "kinds": [
+    "train"
+  ],
+  "folds": [
+    {
+      "fold": "seed0",
+      "test_fs": 28.13,
+      "best_val_fs": 37.93,
+      "best_thr": 0.225
+    }
+  ],
+  "n_folds": 1,
+  "test_fs_mean": 28.13,
+  "test_fs_std": 0.0
+}

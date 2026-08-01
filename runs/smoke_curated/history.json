@@ -1,0 +1,23 @@
+[
+  {
+    "fold": 0,
+    "epoch": 0,
+    "train_loss": 6.18673,
+    "val_fs": 25.6275,
+    "val_thr": 0.175
+  },
+  {
+    "fold": 0,
+    "epoch": 1,
+    "train_loss": 5.85129,
+    "val_fs": 28.2465,
+    "val_thr": 0.175
+  },
+  {
+    "fold": 0,
+    "epoch": 2,
+    "train_loss": 5.81611,
+    "val_fs": 28.2465,
+    "val_thr": 0.2
+  }
+]

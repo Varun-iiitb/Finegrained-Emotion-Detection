@@ -1,0 +1,86 @@
+nohup: ignoring input
+WARNING:root:trust_remote_code: False
+[wheel] format_mapping: 7386 surface forms; raw_mapping: 1255 words
+[encode] 1532 human clips
+[encode] audio: emotion2vec_plus_large …
+funasr version: 1.3.10.
+Downloading Model from https://www.modelscope.cn to directory: /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.blocks.0.0.weight, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.blocks.0.0.bias, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.blocks.1.0.weight, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.blocks.1.0.bias, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.blocks.2.0.weight, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.blocks.2.0.bias, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.blocks.3.0.weight, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.blocks.3.0.bias, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.proj.weight, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+Warning, miss key in ckpt: modality_encoders.AUDIO.decoder.proj.bias, /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_plus_large/model.pt
+   audio 0/1532
+   audio 300/1532
+   audio 600/1532
+   audio 900/1532
+   audio 1200/1532
+   audio 1500/1532
+[encode] visual: trpakov/vit-face-expression …
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 20549.63it/s]
+[transformers] [1mViTModel LOAD REPORT[0m from: trpakov/vit-face-expression
+Key                 | Status     | 
+--------------------+------------+-
+classifier.weight   | UNEXPECTED | 
+classifier.bias     | UNEXPECTED | 
+pooler.dense.weight | MISSING    | 
+pooler.dense.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+   trpakov 0/1532
+   trpakov 500/1532
+   trpakov 1000/1532
+   trpakov 1500/1532
+[encode] visual: dima806/facial_emotions_image_detection …
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights:  79%|███████▉  | 157/198 [00:00<00:00, 1553.26it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 1679.97it/s]
+[transformers] [1mViTModel LOAD REPORT[0m from: dima806/facial_emotions_image_detection
+Key                 | Status     | 
+--------------------+------------+-
+classifier.weight   | UNEXPECTED | 
+classifier.bias     | UNEXPECTED | 
+pooler.dense.weight | MISSING    | 
+pooler.dense.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+   dima806 0/1532
+   dima806 500/1532
+   dima806 1000/1532
+   dima806 1500/1532
+[encode] visual: motheecreator/vit-Facial-Expression-Recognition …
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights:  88%|████████▊ | 174/198 [00:00<00:00, 1715.62it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 1829.27it/s]
+[transformers] [1mViTModel LOAD REPORT[0m from: motheecreator/vit-Facial-Expression-Recognition
+Key                 | Status     | 
+--------------------+------------+-
+classifier.weight   | UNEXPECTED | 
+classifier.bias     | UNEXPECTED | 
+pooler.dense.weight | MISSING    | 
+pooler.dense.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+   motheecreator 0/1532
+   motheecreator 500/1532
+   motheecreator 1000/1532
+   motheecreator 1500/1532
+[cache] saved /home/user10/SRIP/data/cache/pooled_new_eval.pt
+
+=== NEW-FEATURE human-CV linear probe (C=138) ===
+  text   (BGE, old)       : 36.79 ± 0.92
+  audio  (plus_large NEW) : 38.41 ± 0.63
+  visual (trpakov       NEW): 34.78 ± 1.20
+  visual (dima806       NEW): 34.75 ± 2.05
+  visual (motheecreator NEW): 34.50 ± 1.53
+  --> best visual: trpakov (34.78)
+  COMBINED t+a+v (NEW)    : 44.52 ± 1.02
+
+  reference OLD: audio 17.8 | visual 21.9 | text 24.5 | combined 41.7

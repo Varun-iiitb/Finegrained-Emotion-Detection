@@ -1,0 +1,12 @@
+nohup: ignoring input
+Extracting /home/user10/SRIP/data/MER2026/audio_7z/audio_track2_train_mercaptionplus/audio_split_0001.zip -> /home/user10/SRIP/data/MER2026_extracted
+Extracting /home/user10/SRIP/data/MER2026/audio_7z/audio_track2_train_mercaptionplus/audio_split_0002.zip -> /home/user10/SRIP/data/MER2026_extracted
+Extracting /home/user10/SRIP/data/MER2026/audio_7z/audio_track2_train_mercaptionplus/audio_split_0003.zip -> /home/user10/SRIP/data/MER2026_extracted
+Extracting /home/user10/SRIP/data/MER2026/audio_7z/audio_track2_train_mercaptionplus/audio_split_0004.zip -> /home/user10/SRIP/data/MER2026_extracted
+Extracting /home/user10/SRIP/data/MER2026/openface_7z/openface_track2_train_mercaptionplus/openface_split_0001.zip -> /home/user10/SRIP/data/MER2026_extracted
+Extracting /home/user10/SRIP/data/MER2026/openface_7z/openface_track2_train_mercaptionplus/openface_split_0002.zip -> /home/user10/SRIP/data/MER2026_extracted
+Extracting /home/user10/SRIP/data/MER2026/openface_7z/openface_track2_train_mercaptionplus/openface_split_0003.zip -> /home/user10/SRIP/data/MER2026_extracted
+Extracting /home/user10/SRIP/data/MER2026/openface_7z/openface_track2_train_mercaptionplus/openface_split_0004.zip -> /home/user10/SRIP/data/MER2026_extracted
+Extracting /home/user10/SRIP/data/MER2026/audio_7z/audio_track2_train_human/audio_split.zip -> /home/user10/SRIP/data/MER2026_extracted
+Extracting /home/user10/SRIP/data/MER2026/openface_7z/openface_track2_train_human/openface_split.zip -> /home/user10/SRIP/data/MER2026_extracted
+Done. Extracted packages into: /home/user10/SRIP/data/MER2026_extracted

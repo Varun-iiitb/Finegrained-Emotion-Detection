@@ -1,0 +1,20 @@
+nohup: ignoring input
+[wheel] format_mapping: 7386 surface forms; raw_mapping: 1255 words
+[anchors] loaded /home/user10/SRIP/data/cache/anchors_canonical.pt (190, 1024)
+
+=== HYBRID: 190 canonical anchors | pretrain 15ep -> finetune(full) 5-fold 40ep ===
+[pretrain] 30779 pool clips, DG desc-grounding ON (w=0.5)
+  [pretrain] ep00 loss=7.848 human zero-shot F_s(oracle-thr)=20.24
+  [pretrain] ep03 loss=7.307 human zero-shot F_s(oracle-thr)=24.00
+  [pretrain] ep06 loss=7.180 human zero-shot F_s(oracle-thr)=24.46
+  [pretrain] ep09 loss=7.065 human zero-shot F_s(oracle-thr)=27.40
+  [pretrain] ep12 loss=6.980 human zero-shot F_s(oracle-thr)=26.79
+  [pretrain] ep14 loss=6.932 human zero-shot F_s(oracle-thr)=26.51
+  [finetune] fold0: human-test F_s=34.40 (val=37.17 thr=0.200)
+  [finetune] fold1: human-test F_s=35.10 (val=36.16 thr=0.200)
+  [finetune] fold2: human-test F_s=35.01 (val=35.49 thr=0.200)
+  [finetune] fold3: human-test F_s=33.66 (val=36.18 thr=0.200)
+  [finetune] fold4: human-test F_s=35.40 (val=36.23 thr=0.225)
+
+=== RESULT: human-CV OV-MERD F_s = 34.71 ± 0.62 over 5 folds [34.4, 35.1, 35.0, 33.7, 35.4] ===
+  reference: gate (auto-trained) ~28 | human linear-probe ~41.7 | gate bar ~50

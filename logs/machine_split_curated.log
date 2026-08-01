@@ -1,0 +1,32 @@
+nohup: ignoring input
+[anchors] loaded /home/user10/SRIP/data/cache/anchors_curated.pt (193, 1024)
+[label-map] curated: 193 canonicals (incl new), 1399 word entries
+
+=== MACHINE-CV SPLIT | run=machine_split_curated | text=zh | 193 anchors | n=30779 clips ===
+  split: fit=24623 val=3077 test=3079
+  fold0 ep00 loss=5.650 val_Fs=32.28 thr=0.200
+  fold0 ep01 loss=5.507 val_Fs=33.10 thr=0.225
+  fold0 ep02 loss=5.474 val_Fs=33.33 thr=0.225
+  fold0 ep03 loss=5.437 val_Fs=34.82 thr=0.225
+  fold0 ep04 loss=5.413 val_Fs=34.89 thr=0.200
+  fold0 ep05 loss=5.400 val_Fs=35.66 thr=0.225
+  fold0 ep06 loss=5.379 val_Fs=35.27 thr=0.225
+  fold0 ep07 loss=5.370 val_Fs=35.52 thr=0.225
+  fold0 ep08 loss=5.354 val_Fs=35.94 thr=0.225
+  fold0 ep09 loss=5.347 val_Fs=36.74 thr=0.225
+  fold0 ep10 loss=5.331 val_Fs=35.97 thr=0.225
+  fold0 ep11 loss=5.329 val_Fs=35.91 thr=0.225
+  fold0 ep12 loss=5.314 val_Fs=35.71 thr=0.225
+  fold0 ep13 loss=5.299 val_Fs=36.54 thr=0.225
+  fold0 ep14 loss=5.285 val_Fs=36.20 thr=0.225
+  fold0 ep15 loss=5.264 val_Fs=35.87 thr=0.225
+  fold0 ep16 loss=5.259 val_Fs=36.29 thr=0.225
+  fold0 ep17 loss=5.242 val_Fs=36.15 thr=0.225
+  fold0 ep18 loss=5.228 val_Fs=35.51 thr=0.225
+  fold0 ep19 loss=5.223 val_Fs=35.48 thr=0.225
+  fold0: TEST F_s=36.88  (best_val=36.74 @ep9 thr=0.225)
+
+=== RESULT machine_split_curated: machine within-dist TEST F_s = 36.88 ± 0.00 over 1 split [36.9] ===
+  saved -> /home/user10/SRIP/runs/machine_split_curated/history.json + result.json
+  NOTE: this is WITHIN-DISTRIBUTION (predict auto labels). Human-relevance number is still the human-CV (~44.6).
+  plot:  python src/plot_training.py --run /home/user10/SRIP/runs/machine_split_curated

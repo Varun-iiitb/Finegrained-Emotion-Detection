@@ -1,0 +1,121 @@
+nohup: ignoring input
+[wheel] format_mapping: 7386 surface forms; raw_mapping: 1255 words
+[anchors] canonical: 3311 words -> 190 anchors
+[anchors] loaded /home/user10/SRIP/data/cache/anchors_canonical.pt (190, 1024)
+
+=== MACHINE-CV CV | run=machine_cv_zh_canon | text=zh | 190 anchors | n=30779 clips ===
+  fold0: fit=19699 val=4924 test=6156
+  fold0 ep00 loss=5.608 val_Fs=32.21 thr=0.225
+  fold0 ep01 loss=5.422 val_Fs=32.80 thr=0.250
+  fold0 ep02 loss=5.398 val_Fs=34.09 thr=0.225
+  fold0 ep03 loss=5.364 val_Fs=34.98 thr=0.250
+  fold0 ep04 loss=5.333 val_Fs=34.00 thr=0.225
+  fold0 ep05 loss=5.314 val_Fs=35.68 thr=0.250
+  fold0 ep06 loss=5.295 val_Fs=34.71 thr=0.225
+  fold0 ep07 loss=5.287 val_Fs=34.83 thr=0.250
+  fold0 ep08 loss=5.276 val_Fs=36.48 thr=0.225
+  fold0 ep09 loss=5.269 val_Fs=36.27 thr=0.225
+  fold0 ep10 loss=5.255 val_Fs=35.34 thr=0.225
+  fold0 ep11 loss=5.240 val_Fs=36.32 thr=0.225
+  fold0 ep12 loss=5.220 val_Fs=35.80 thr=0.225
+  fold0 ep13 loss=5.218 val_Fs=35.41 thr=0.225
+  fold0 ep14 loss=5.208 val_Fs=35.23 thr=0.250
+  fold0 ep15 loss=5.189 val_Fs=35.43 thr=0.250
+  fold0 ep16 loss=5.174 val_Fs=35.21 thr=0.250
+  fold0 ep17 loss=5.164 val_Fs=34.69 thr=0.250
+  fold0 ep18 loss=5.163 val_Fs=35.56 thr=0.225
+  fold0 ep19 loss=5.144 val_Fs=35.73 thr=0.225
+  fold0: TEST F_s=36.82  (best_val=36.48 @ep8 thr=0.225)
+  fold1: fit=19699 val=4924 test=6156
+  fold1 ep00 loss=5.583 val_Fs=31.68 thr=0.225
+  fold1 ep01 loss=5.428 val_Fs=33.17 thr=0.225
+  fold1 ep02 loss=5.392 val_Fs=34.53 thr=0.225
+  fold1 ep03 loss=5.349 val_Fs=34.35 thr=0.225
+  fold1 ep04 loss=5.326 val_Fs=34.86 thr=0.225
+  fold1 ep05 loss=5.307 val_Fs=36.43 thr=0.225
+  fold1 ep06 loss=5.297 val_Fs=35.74 thr=0.225
+  fold1 ep07 loss=5.285 val_Fs=36.11 thr=0.225
+  fold1 ep08 loss=5.273 val_Fs=35.50 thr=0.225
+  fold1 ep09 loss=5.263 val_Fs=36.67 thr=0.225
+  fold1 ep10 loss=5.256 val_Fs=35.96 thr=0.225
+  fold1 ep11 loss=5.246 val_Fs=35.71 thr=0.225
+  fold1 ep12 loss=5.223 val_Fs=36.43 thr=0.250
+  fold1 ep13 loss=5.212 val_Fs=36.85 thr=0.225
+  fold1 ep14 loss=5.203 val_Fs=35.57 thr=0.250
+  fold1 ep15 loss=5.182 val_Fs=36.55 thr=0.225
+  fold1 ep16 loss=5.178 val_Fs=36.25 thr=0.250
+  fold1 ep17 loss=5.181 val_Fs=36.37 thr=0.225
+  fold1 ep18 loss=5.165 val_Fs=36.40 thr=0.250
+  fold1 ep19 loss=5.145 val_Fs=36.68 thr=0.225
+  fold1: TEST F_s=36.88  (best_val=36.85 @ep13 thr=0.225)
+  fold2: fit=19699 val=4924 test=6156
+  fold2 ep00 loss=5.656 val_Fs=32.33 thr=0.225
+  fold2 ep01 loss=5.441 val_Fs=34.59 thr=0.225
+  fold2 ep02 loss=5.410 val_Fs=34.26 thr=0.225
+  fold2 ep03 loss=5.377 val_Fs=34.79 thr=0.225
+  fold2 ep04 loss=5.340 val_Fs=34.48 thr=0.225
+  fold2 ep05 loss=5.323 val_Fs=35.42 thr=0.225
+  fold2 ep06 loss=5.309 val_Fs=35.42 thr=0.225
+  fold2 ep07 loss=5.297 val_Fs=35.11 thr=0.250
+  fold2 ep08 loss=5.287 val_Fs=35.31 thr=0.250
+  fold2 ep09 loss=5.278 val_Fs=35.13 thr=0.250
+  fold2 ep10 loss=5.269 val_Fs=35.96 thr=0.225
+  fold2 ep11 loss=5.262 val_Fs=35.35 thr=0.250
+  fold2 ep12 loss=5.244 val_Fs=36.14 thr=0.225
+  fold2 ep13 loss=5.231 val_Fs=35.95 thr=0.225
+  fold2 ep14 loss=5.214 val_Fs=35.84 thr=0.250
+  fold2 ep15 loss=5.200 val_Fs=35.64 thr=0.250
+  fold2 ep16 loss=5.194 val_Fs=36.34 thr=0.225
+  fold2 ep17 loss=5.189 val_Fs=36.52 thr=0.250
+  fold2 ep18 loss=5.172 val_Fs=36.64 thr=0.250
+  fold2 ep19 loss=5.162 val_Fs=36.51 thr=0.250
+  fold2: TEST F_s=35.72  (best_val=36.64 @ep18 thr=0.250)
+  fold3: fit=19699 val=4924 test=6156
+  fold3 ep00 loss=5.586 val_Fs=32.85 thr=0.225
+  fold3 ep01 loss=5.442 val_Fs=34.42 thr=0.225
+  fold3 ep02 loss=5.401 val_Fs=33.47 thr=0.225
+  fold3 ep03 loss=5.372 val_Fs=35.22 thr=0.225
+  fold3 ep04 loss=5.349 val_Fs=34.60 thr=0.225
+  fold3 ep05 loss=5.317 val_Fs=35.90 thr=0.225
+  fold3 ep06 loss=5.303 val_Fs=34.64 thr=0.225
+  fold3 ep07 loss=5.296 val_Fs=34.60 thr=0.250
+  fold3 ep08 loss=5.277 val_Fs=34.96 thr=0.225
+  fold3 ep09 loss=5.273 val_Fs=35.73 thr=0.250
+  fold3 ep10 loss=5.257 val_Fs=35.76 thr=0.225
+  fold3 ep11 loss=5.246 val_Fs=35.45 thr=0.225
+  fold3 ep12 loss=5.241 val_Fs=35.10 thr=0.250
+  fold3 ep13 loss=5.226 val_Fs=36.12 thr=0.250
+  fold3 ep14 loss=5.207 val_Fs=35.87 thr=0.250
+  fold3 ep15 loss=5.195 val_Fs=35.43 thr=0.250
+  fold3 ep16 loss=5.185 val_Fs=35.32 thr=0.250
+  fold3 ep17 loss=5.172 val_Fs=35.68 thr=0.225
+  fold3 ep18 loss=5.156 val_Fs=36.55 thr=0.250
+  fold3 ep19 loss=5.144 val_Fs=36.06 thr=0.225
+  fold3: TEST F_s=36.04  (best_val=36.55 @ep18 thr=0.250)
+  fold4: fit=19700 val=4924 test=6155
+  fold4 ep00 loss=5.623 val_Fs=31.83 thr=0.225
+  fold4 ep01 loss=5.440 val_Fs=34.53 thr=0.225
+  fold4 ep02 loss=5.406 val_Fs=33.67 thr=0.225
+  fold4 ep03 loss=5.381 val_Fs=35.65 thr=0.225
+  fold4 ep04 loss=5.347 val_Fs=35.25 thr=0.225
+  fold4 ep05 loss=5.325 val_Fs=35.24 thr=0.225
+  fold4 ep06 loss=5.311 val_Fs=35.07 thr=0.250
+  fold4 ep07 loss=5.302 val_Fs=34.39 thr=0.225
+  fold4 ep08 loss=5.297 val_Fs=34.59 thr=0.250
+  fold4 ep09 loss=5.280 val_Fs=35.49 thr=0.250
+  fold4 ep10 loss=5.274 val_Fs=35.41 thr=0.225
+  fold4 ep11 loss=5.263 val_Fs=35.65 thr=0.250
+  fold4 ep12 loss=5.245 val_Fs=35.46 thr=0.225
+  fold4 ep13 loss=5.232 val_Fs=36.92 thr=0.225
+  fold4 ep14 loss=5.219 val_Fs=35.35 thr=0.225
+  fold4 ep15 loss=5.202 val_Fs=36.18 thr=0.250
+  fold4 ep16 loss=5.204 val_Fs=36.19 thr=0.250
+  fold4 ep17 loss=5.179 val_Fs=36.00 thr=0.225
+  fold4 ep18 loss=5.167 val_Fs=35.98 thr=0.225
+  fold4 ep19 loss=5.151 val_Fs=35.87 thr=0.250
+  fold4: TEST F_s=37.08  (best_val=36.92 @ep13 thr=0.225)
+
+=== RESULT machine_cv_zh_canon: machine within-dist TEST F_s = 36.51 ± 0.53 over 5 fold(s) [36.8, 36.9, 35.7, 36.0, 37.1] ===
+  saved -> /home/user10/SRIP/runs/machine_cv_zh_canon/history.json + result.json
+  NOTE: this is WITHIN-DISTRIBUTION (predict auto labels). Human-relevance number is still the human-CV (~44.6).
+  plot:  python src/plot_training.py --run /home/user10/SRIP/runs/machine_cv_zh_canon

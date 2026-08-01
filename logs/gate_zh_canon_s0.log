@@ -1,0 +1,42 @@
+nohup: ignoring input
+[wheel] format_mapping: 7386 surface forms; raw_mapping: 1255 words
+[anchors] canonical level: 3311 words -> 190 canonical anchors
+[anchors] building from BGE-M3, template='a feeling of {word}' …
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 78306.49it/s]
+[anchors] built (190, 1024) -> /home/user10/SRIP/data/cache/anchors_canonical.pt
+
+=== GATE run: text=zh level=canonical seeds=[0] epochs=30 ===
+  seed0 ep00 loss=5.579 val_Fs=33.41 thr=0.225
+  seed0 ep01 loss=5.414 val_Fs=34.11 thr=0.225
+  seed0 ep02 loss=5.365 val_Fs=34.75 thr=0.250
+  seed0 ep03 loss=5.334 val_Fs=36.30 thr=0.225
+  seed0 ep04 loss=5.314 val_Fs=34.97 thr=0.250
+  seed0 ep05 loss=5.300 val_Fs=36.50 thr=0.225
+  seed0 ep06 loss=5.287 val_Fs=36.14 thr=0.250
+  seed0 ep07 loss=5.272 val_Fs=36.05 thr=0.225
+  seed0 ep08 loss=5.256 val_Fs=37.24 thr=0.250
+  seed0 ep09 loss=5.239 val_Fs=36.71 thr=0.250
+  seed0 ep10 loss=5.224 val_Fs=37.28 thr=0.250
+  seed0 ep11 loss=5.211 val_Fs=36.43 thr=0.250
+  seed0 ep12 loss=5.195 val_Fs=36.26 thr=0.225
+  seed0 ep13 loss=5.188 val_Fs=37.13 thr=0.250
+  seed0 ep14 loss=5.181 val_Fs=37.10 thr=0.250
+  seed0 ep15 loss=5.165 val_Fs=36.78 thr=0.250
+  seed0 ep16 loss=5.156 val_Fs=36.77 thr=0.250
+  seed0 ep17 loss=5.139 val_Fs=37.04 thr=0.250
+  seed0 ep18 loss=5.137 val_Fs=36.94 thr=0.250
+  seed0 ep19 loss=5.123 val_Fs=36.50 thr=0.225
+  seed0 ep20 loss=5.113 val_Fs=36.89 thr=0.250
+  seed0 ep21 loss=5.101 val_Fs=37.93 thr=0.225
+  seed0 ep22 loss=5.096 val_Fs=37.33 thr=0.250
+  seed0 ep23 loss=5.077 val_Fs=37.88 thr=0.250
+  seed0 ep24 loss=5.071 val_Fs=36.72 thr=0.250
+  seed0 ep25 loss=5.067 val_Fs=35.66 thr=0.250
+  seed0 ep26 loss=5.059 val_Fs=37.45 thr=0.250
+  seed0 ep27 loss=5.048 val_Fs=35.47 thr=0.225
+  seed0 ep28 loss=5.041 val_Fs=37.19 thr=0.250
+  seed0 ep29 loss=5.035 val_Fs=36.14 thr=0.250
+  seed0: OV-MERD F_s=28.13  (val_Fs=37.93 thr=0.225)
+
+=== RESULT text=zh: OV-MERD F_s = 28.13 ± 0.00 over 1 seeds [28.13] ===
+GATE (~50 F_s): FAIL (mean 28.13)

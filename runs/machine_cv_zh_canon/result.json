@@ -1,0 +1,75 @@
+{
+  "run_name": "machine_cv_zh_canon",
+  "mode": "cv",
+  "text": "zh",
+  "anchor_level": "canonical",
+  "n_clips": 30779,
+  "n_anchors": 190,
+  "epochs": 20,
+  "test_fs_mean": 36.5096,
+  "test_fs_std": 0.5319,
+  "folds": [
+    {
+      "fold": 0,
+      "test_fs": 36.8228,
+      "best_val_fs": 36.4822,
+      "best_epoch": 8,
+      "best_thr": 0.225
+    },
+    {
+      "fold": 1,
+      "test_fs": 36.8843,
+      "best_val_fs": 36.8519,
+      "best_epoch": 13,
+      "best_thr": 0.225
+    },
+    {
+      "fold": 2,
+      "test_fs": 35.7175,
+      "best_val_fs": 36.6417,
+      "best_epoch": 18,
+      "best_thr": 0.25
+    },
+    {
+      "fold": 3,
+      "test_fs": 36.0404,
+      "best_val_fs": 36.5528,
+      "best_epoch": 18,
+      "best_thr": 0.25
+    },
+    {
+      "fold": 4,
+      "test_fs": 37.0829,
+      "best_val_fs": 36.9204,
+      "best_epoch": 13,
+      "best_thr": 0.225
+    }
+  ],
+  "args": {
+    "cache_dir": "/home/user10/SRIP/data/cache",
+    "vocab": "/home/user10/SRIP/data/manifests/vocab.json",
+    "wheel": "/home/user10/SRIP/third_party/AffectGPT/OV-MER/emotion_wheel",
+    "run_dir": "/home/user10/SRIP/runs",
+    "run_name": "machine_cv_zh_canon",
+    "mode": "cv",
+    "folds": 5,
+    "train_frac": 0.8,
+    "val_frac": 0.1,
+    "text": "zh",
+    "seed": 0,
+    "epochs": 20,
+    "batch_size": 128,
+    "lr": 0.0003,
+    "d_model": 256,
+    "layers": 6,
+    "heads": 4,
+    "tau": 0.07,
+    "aux_weight": 0.3,
+    "desc_weight": 0.0,
+    "p_drop": 0.3,
+    "workers": 4,
+    "anchor_template": "a feeling of {word}",
+    "anchor_level": "canonical",
+    "limit": null
+  }
+}

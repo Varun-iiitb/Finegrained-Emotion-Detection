@@ -1,0 +1,22 @@
+nohup: ignoring input
+WARNING:root:trust_remote_code: False
+loaded 1532 records from /home/user10/SRIP/data/manifests/eval.jsonl
+loading encoders (frozen)…
+funasr version: 1.3.10.
+Downloading Model from https://www.modelscope.cn to directory: /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_base
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 24746.64it/s]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 80707.33it/s]
+  vocab_emb exists, skipping (/home/user10/SRIP/data/cache/vocab_emb.pt)
+  [eval] 200/1532  (new=184 skip=16)  miss={'audio': 0, 'visual': 0, 'text_zh': 1, 'text_en': 1, 'desc': 0}
+  [eval] 400/1532  (new=384 skip=16)  miss={'audio': 0, 'visual': 0, 'text_zh': 2, 'text_en': 2, 'desc': 0}
+  [eval] 600/1532  (new=584 skip=16)  miss={'audio': 0, 'visual': 0, 'text_zh': 2, 'text_en': 2, 'desc': 0}
+  [eval] 800/1532  (new=784 skip=16)  miss={'audio': 0, 'visual': 0, 'text_zh': 2, 'text_en': 3, 'desc': 0}
+  [eval] 1000/1532  (new=984 skip=16)  miss={'audio': 0, 'visual': 0, 'text_zh': 3, 'text_en': 4, 'desc': 0}
+  [eval] 1200/1532  (new=1184 skip=16)  miss={'audio': 0, 'visual': 0, 'text_zh': 3, 'text_en': 4, 'desc': 0}
+  [eval] 1400/1532  (new=1384 skip=16)  miss={'audio': 0, 'visual': 0, 'text_zh': 11, 'text_en': 12, 'desc': 0}
+  [eval] 1532/1532  (new=1516 skip=16)  miss={'audio': 0, 'visual': 0, 'text_zh': 23, 'text_en': 24, 'desc': 0}
+
+[done] split=eval  new=1516 skipped=16
+       dims: audio=768 visual=768 text=1024
+       missing: {'audio': 0, 'visual': 0, 'text_zh': 23, 'text_en': 24, 'desc': 0}
+       wrote eval_meta.json -> /home/user10/SRIP/data/cache

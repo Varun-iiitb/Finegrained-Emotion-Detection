@@ -1,0 +1,39 @@
+nohup: ignoring input
+[anchors] loaded /home/user10/SRIP/data/cache/anchors.pt (3311, 1024)
+[wheel] format_mapping: 7386 surface forms; raw_mapping: 1255 words
+
+=== GATE run: text=zh seeds=[0] epochs=30 ===
+  seed0 ep00 loss=8.860 val_Fs=27.12 thr=0.425
+  seed0 ep01 loss=8.696 val_Fs=28.75 thr=0.450
+  seed0 ep02 loss=8.629 val_Fs=31.53 thr=0.450
+  seed0 ep03 loss=8.607 val_Fs=31.53 thr=0.450
+  seed0 ep04 loss=8.587 val_Fs=32.57 thr=0.450
+  seed0 ep05 loss=8.572 val_Fs=33.18 thr=0.450
+  seed0 ep06 loss=8.552 val_Fs=33.35 thr=0.450
+  seed0 ep07 loss=8.528 val_Fs=30.04 thr=0.450
+  seed0 ep08 loss=8.512 val_Fs=32.51 thr=0.450
+  seed0 ep09 loss=8.503 val_Fs=31.49 thr=0.450
+  seed0 ep10 loss=8.488 val_Fs=33.01 thr=0.450
+  seed0 ep11 loss=8.469 val_Fs=30.88 thr=0.450
+  seed0 ep12 loss=8.449 val_Fs=32.33 thr=0.450
+  seed0 ep13 loss=8.443 val_Fs=31.53 thr=0.450
+  seed0 ep14 loss=8.431 val_Fs=32.39 thr=0.450
+  seed0 ep15 loss=8.420 val_Fs=31.47 thr=0.450
+  seed0 ep16 loss=8.413 val_Fs=30.93 thr=0.450
+  seed0 ep17 loss=8.400 val_Fs=31.28 thr=0.450
+  seed0 ep18 loss=8.392 val_Fs=30.95 thr=0.450
+  seed0 ep19 loss=8.382 val_Fs=31.19 thr=0.425
+  seed0 ep20 loss=8.378 val_Fs=32.86 thr=0.450
+  seed0 ep21 loss=8.364 val_Fs=32.92 thr=0.450
+  seed0 ep22 loss=8.359 val_Fs=31.43 thr=0.450
+  seed0 ep23 loss=8.339 val_Fs=31.87 thr=0.450
+  seed0 ep24 loss=8.336 val_Fs=31.77 thr=0.450
+  seed0 ep25 loss=8.327 val_Fs=31.95 thr=0.425
+  seed0 ep26 loss=8.317 val_Fs=31.74 thr=0.450
+  seed0 ep27 loss=8.306 val_Fs=33.14 thr=0.450
+  seed0 ep28 loss=8.298 val_Fs=30.32 thr=0.425
+  seed0 ep29 loss=8.287 val_Fs=32.33 thr=0.450
+  seed0: OV-MERD F_s=28.30  (val_Fs=33.35 thr=0.450)
+
+=== RESULT text=zh: OV-MERD F_s = 28.30 ± 0.00 over 1 seeds [28.3] ===
+GATE (~50 F_s): FAIL (mean 28.30)

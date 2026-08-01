@@ -1,0 +1,154 @@
+nohup: ignoring input
+WARNING:root:trust_remote_code: False
+loaded 30779 records from /home/user10/SRIP/data/manifests/train.jsonl
+loading encoders (frozen)…
+funasr version: 1.3.10.
+Downloading Model from https://www.modelscope.cn to directory: /home/user10/.cache/modelscope/hub/models/iic/emotion2vec_base
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 23172.95it/s]
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 81259.18it/s]
+  [train] 200/30779  (new=179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 3, 'desc': 0}  [train] 400/30779  (new=400 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 5, 'desc': 0}
+    [train] 600/30779  (new=579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 9, 'desc':   [train] 800/30779  (new=800 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 15, 'desc': 0}
+  [t  [train] 1000/30779  (new=979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 19, 'desc':  [train] 1200/30779  (new=1200 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 25, 'desc': 0}
+  [tr  [train] 1400/30779  (new=1379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 28, 'desc  [train] 1600/30779  (new=1600 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 31, 'desc': 0}
+  [trai  [train] 1800/30779  (new=1779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 31, 'de  [train] 2000/30779  (new=2000 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 33, 'desc': 0}
+  [train] 2200/30779  (new=2200 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 41, 'desc': 0}
+  [train] 2400/30779  (new=2400 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 48, 'desc': 0}
+  [train] 2  [train] 2600/30779  (new=2579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 52,  [train] 28  [train] 2800/30779  (new=2779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 56  [train] 300  [train] 3000/30779  (new=2979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 6  [train] 3200/30779  (new=3200 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 64, 'desc': 0}
+  [train] 3400/  [train] 3400/30779  (new=3379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en':  [train] 3600/30779  (new=3600 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 69, 'desc': 0}
+  [train] 3800/30  [train] 3800/30779  (new=3779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en  [train] 4000/307  [train] 4000/30779  (new=3979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_e  [train] 4200/30779  (new=4200 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 77, 'desc': 0}
+  [train] 4400/30779  (new=4400 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 79, 'desc': 0}
+  [train] 4600/30779   [train] 4600/30779  (new=4579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'tex  [train] 4800/30779    [train] 4800/30779  (new=4779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'te  [train] 5000/30779  (  [train] 5000/30779  (new=4979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 't  [train] 5200/30779  (new=5200 skip=0)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 100, 'desc': 0}
+ext_en': 100, 'desc': 0}
+  [train] 5400/30779  (new=5379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 104, 'desc': 0}
+  [train] 5600/30779  (new=5579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 107, 'desc': 0}
+  [train] 5800/30779  (new=5779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 110, 'desc': 0}
+  [train] 6000/30779  (new=5979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 112, 'desc': 0}
+  [train] 6200/30779  (new=6179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 120, 'desc': 0}
+  [train] 6400/30779  (new=6379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 122, 'desc': 0}
+  [train] 6600/30779  (new=6579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 123, 'desc': 0}
+  [train] 6800/30779  (new=6779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 130, 'desc': 0}
+  [train] 7000/30779  (new=6979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 132, 'desc': 0}
+  [train] 7200/30779  (new=7179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 133, 'desc': 0}
+  [train] 7400/30779  (new=7379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 139, 'desc': 0}
+  [train] 7600/30779  (new=7579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 141, 'desc': 0}
+  [train] 7800/30779  (new=7779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 148, 'desc': 0}
+  [train] 8000/30779  (new=7979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 152, 'desc': 0}
+  [train] 8200/30779  (new=8179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 155, 'desc': 0}
+  [train] 8400/30779  (new=8379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 161, 'desc': 0}
+  [train] 8600/30779  (new=8579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 166, 'desc': 0}
+  [train] 8800/30779  (new=8779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 167, 'desc': 0}
+  [train] 9000/30779  (new=8979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 170, 'desc': 0}
+  [train] 9200/30779  (new=9179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 178, 'desc': 0}
+  [train] 9400/30779  (new=9379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 184, 'desc': 0}
+  [train] 9600/30779  (new=9579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 189, 'desc': 0}
+  [train] 9800/30779  (new=9779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 194, 'desc': 0}
+  [train] 10000/30779  (new=9979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 195, 'desc': 0}
+  [train] 10200/30779  (new=10179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 199, 'desc': 0}
+  [train] 10400/30779  (new=10379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 202, 'desc': 0}
+  [train] 10600/30779  (new=10579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 206, 'desc': 0}
+  [train] 10800/30779  (new=10779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 209, 'desc': 0}
+  [train] 11000/30779  (new=10979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 213, 'desc': 0}
+  [train] 11200/30779  (new=11179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 215, 'desc': 0}
+  [train] 11400/30779  (new=11379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 219, 'desc': 0}
+  [train] 11600/30779  (new=11579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 222, 'desc': 0}
+  [train] 11800/30779  (new=11779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 226, 'desc': 0}
+  [train] 12000/30779  (new=11979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 230, 'desc': 0}
+  [train] 12200/30779  (new=12179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 235, 'desc': 0}
+  [train] 12400/30779  (new=12379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 237, 'desc': 0}
+  [train] 12600/30779  (new=12579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 239, 'desc': 0}
+  [train] 12800/30779  (new=12779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 243, 'desc': 0}
+  [train] 13000/30779  (new=12979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 246, 'desc': 0}
+  [train] 13200/30779  (new=13179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 251, 'desc': 0}
+  [train] 13400/30779  (new=13379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 255, 'desc': 0}
+  [train] 13600/30779  (new=13579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 256, 'desc': 0}
+  [train] 13800/30779  (new=13779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 261, 'desc': 0}
+  [train] 14000/30779  (new=13979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 266, 'desc': 0}
+  [train] 14200/30779  (new=14179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 267, 'desc': 0}
+  [train] 14400/30779  (new=14379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 270, 'desc': 0}
+  [train] 14600/30779  (new=14579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 274, 'desc': 0}
+  [train] 14800/30779  (new=14779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 277, 'desc': 0}
+  [train] 15000/30779  (new=14979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 281, 'desc': 0}
+  [train] 15200/30779  (new=15179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 285, 'desc': 0}
+  [train] 15400/30779  (new=15379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 292, 'desc': 0}
+  [train] 15600/30779  (new=15579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 294, 'desc': 0}
+  [train] 15800/30779  (new=15779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 296, 'desc': 0}
+  [train] 16000/30779  (new=15979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 300, 'desc': 0}
+  [train] 16200/30779  (new=16179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 302, 'desc': 0}
+  [train] 16400/30779  (new=16379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 307, 'desc': 0}
+  [train] 16600/30779  (new=16579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 309, 'desc': 0}
+  [train] 16800/30779  (new=16779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 311, 'desc': 0}
+  [train] 17000/30779  (new=16979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 315, 'desc': 0}
+  [train] 17200/30779  (new=17179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 319, 'desc': 0}
+  [train] 17400/30779  (new=17379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 323, 'desc': 0}
+  [train] 17600/30779  (new=17579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 328, 'desc': 0}
+  [train] 17800/30779  (new=17779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 331, 'desc': 0}
+  [train] 18000/30779  (new=17979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 339, 'desc': 0}
+  [train] 18200/30779  (new=18179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 342, 'desc': 0}
+  [train] 18400/30779  (new=18379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 344, 'desc': 0}
+  [train] 18600/30779  (new=18579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 348, 'desc': 0}
+  [train] 18800/30779  (new=18779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 356, 'desc': 0}
+  [train] 19000/30779  (new=18979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 358, 'desc': 0}
+  [train] 19200/30779  (new=19179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 363, 'desc': 0}
+  [train] 19400/30779  (new=19379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 367, 'desc': 0}
+  [train] 19600/30779  (new=19579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 372, 'desc': 0}
+  [train] 19800/30779  (new=19779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 375, 'desc': 0}
+  [train] 20000/30779  (new=19979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 378, 'desc': 0}
+  [train] 20200/30779  (new=20179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 379, 'desc': 0}
+  [train] 20400/30779  (new=20379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 380, 'desc': 0}
+  [train] 20600/30779  (new=20579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 384, 'desc': 0}
+  [train] 20800/30779  (new=20779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 388, 'desc': 0}
+  [train] 21000/30779  (new=20979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 391, 'desc': 0}
+  [train] 21200/30779  (new=21179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 393, 'desc': 0}
+  [train] 21400/30779  (new=21379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 397, 'desc': 0}
+  [train] 21600/30779  (new=21579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 401, 'desc': 0}
+  [train] 21800/30779  (new=21779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 404, 'desc': 0}
+  [train] 22000/30779  (new=21979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 406, 'desc': 0}
+  [train] 22200/30779  (new=22179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 408, 'desc': 0}
+  [train] 22400/30779  (new=22379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 412, 'desc': 0}
+  [train] 22600/30779  (new=22579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 417, 'desc': 0}
+  [train] 22800/30779  (new=22779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 423, 'desc': 0}
+  [train] 23000/30779  (new=22979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 428, 'desc': 0}
+  [train] 23200/30779  (new=23179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 430, 'desc': 0}
+  [train] 23400/30779  (new=23379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 433, 'desc': 0}
+  [train] 23600/30779  (new=23579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 436, 'desc': 0}
+  [train] 23800/30779  (new=23779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 436, 'desc': 0}
+  [train] 24000/30779  (new=23979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 442, 'desc': 0}
+  [train] 24200/30779  (new=24179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 449, 'desc': 0}
+  [train] 24400/30779  (new=24379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 453, 'desc': 0}
+  [train] 24600/30779  (new=24579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 459, 'desc': 0}
+  [train] 24800/30779  (new=24779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 465, 'desc': 0}
+  [train] 25000/30779  (new=24979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 474, 'desc': 0}
+  [train] 25200/30779  (new=25179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 483, 'desc': 0}
+  [train] 25400/30779  (new=25379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 488, 'desc': 0}
+  [train] 25600/30779  (new=25579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 493, 'desc': 0}
+  [train] 25800/30779  (new=25779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 499, 'desc': 0}
+  [train] 26000/30779  (new=25979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 502, 'desc': 0}
+  [train] 26200/30779  (new=26179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 506, 'desc': 0}
+  [train] 26400/30779  (new=26379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 509, 'desc': 0}
+  [train] 26600/30779  (new=26579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 512, 'desc': 0}
+  [train] 26800/30779  (new=26779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 514, 'desc': 0}
+  [train] 27000/30779  (new=26979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 517, 'desc': 0}
+  [train] 27200/30779  (new=27179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 521, 'desc': 0}
+  [train] 27400/30779  (new=27379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 523, 'desc': 0}
+  [train] 27600/30779  (new=27579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 528, 'desc': 0}
+  [train] 27800/30779  (new=27779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 529, 'desc': 0}
+  [train] 28000/30779  (new=27979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 533, 'desc': 0}
+  [train] 28200/30779  (new=28179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 535, 'desc': 0}
+  [train] 28400/30779  (new=28379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 536, 'desc': 0}
+  [train] 28600/30779  (new=28579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 539, 'desc': 0}
+  [train] 28800/30779  (new=28779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 539, 'desc': 0}
+  [train] 29000/30779  (new=28979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 544, 'desc': 0}
+  [train] 29200/30779  (new=29179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 551, 'desc': 0}
+  [train] 29400/30779  (new=29379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 554, 'desc': 0}
+  [train] 29600/30779  (new=29579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 560, 'desc': 0}
+  [train] 29800/30779  (new=29779 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 565, 'desc': 0}
+  [train] 30000/30779  (new=29979 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 570, 'desc': 0}
+  [train] 30200/30779  (new=30179 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 572, 'desc': 0}
+  [train] 30400/30779  (new=30379 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 575, 'desc': 0}
+  [train] 30600/30779  (new=30579 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 587, 'desc': 0}
+  [train] 30779/30779  (new=30758 skip=21)  miss={'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 588, 'desc': 0}
+
+[done] split=train  new=30758 skipped=21
+       dims: audio=768 visual=768 text=1024
+       missing: {'audio': 0, 'visual': 0, 'text_zh': 0, 'text_en': 588, 'desc': 0}
+       wrote train_meta.json -> /home/user10/SRIP/data/cache

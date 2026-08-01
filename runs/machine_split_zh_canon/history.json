@@ -1,0 +1,142 @@
+[
+  {
+    "fold": 0,
+    "epoch": 0,
+    "train_loss": 5.59097,
+    "val_fs": 32.7253,
+    "val_thr": 0.225
+  },
+  {
+    "fold": 0,
+    "epoch": 1,
+    "train_loss": 5.42699,
+    "val_fs": 33.1167,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 2,
+    "train_loss": 5.38949,
+    "val_fs": 32.2671,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 3,
+    "train_loss": 5.35159,
+    "val_fs": 33.8387,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 4,
+    "train_loss": 5.32722,
+    "val_fs": 34.8498,
+    "val_thr": 0.225
+  },
+  {
+    "fold": 0,
+    "epoch": 5,
+    "train_loss": 5.31242,
+    "val_fs": 35.4326,
+    "val_thr": 0.225
+  },
+  {
+    "fold": 0,
+    "epoch": 6,
+    "train_loss": 5.291,
+    "val_fs": 35.8755,
+    "val_thr": 0.225
+  },
+  {
+    "fold": 0,
+    "epoch": 7,
+    "train_loss": 5.28489,
+    "val_fs": 34.5775,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 8,
+    "train_loss": 5.27014,
+    "val_fs": 35.0298,
+    "val_thr": 0.225
+  },
+  {
+    "fold": 0,
+    "epoch": 9,
+    "train_loss": 5.26385,
+    "val_fs": 36.1845,
+    "val_thr": 0.225
+  },
+  {
+    "fold": 0,
+    "epoch": 10,
+    "train_loss": 5.24614,
+    "val_fs": 36.358,
+    "val_thr": 0.225
+  },
+  {
+    "fold": 0,
+    "epoch": 11,
+    "train_loss": 5.23799,
+    "val_fs": 35.4835,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 12,
+    "train_loss": 5.22311,
+    "val_fs": 36.6884,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 13,
+    "train_loss": 5.2073,
+    "val_fs": 36.4407,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 14,
+    "train_loss": 5.19765,
+    "val_fs": 36.4773,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 15,
+    "train_loss": 5.18179,
+    "val_fs": 36.4234,
+    "val_thr": 0.225
+  },
+  {
+    "fold": 0,
+    "epoch": 16,
+    "train_loss": 5.17379,
+    "val_fs": 35.6446,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 17,
+    "train_loss": 5.16299,
+    "val_fs": 36.0092,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 18,
+    "train_loss": 5.15016,
+    "val_fs": 35.8944,
+    "val_thr": 0.25
+  },
+  {
+    "fold": 0,
+    "epoch": 19,
+    "train_loss": 5.14177,
+    "val_fs": 36.3403,
+    "val_thr": 0.25
+  }
+]
